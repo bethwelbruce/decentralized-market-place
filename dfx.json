@@ -1,0 +1,18 @@
+{
+  "canisters": {
+    "marketplace": {
+      "main": "src/decentralized-marketplace/index.ts",
+      "type": "motoko"
+    },
+    "internet_identity": {
+      "main": "src/internet_identity/index.ts",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "dfx",
+      "output": "build"
+    }
+  }
+}
